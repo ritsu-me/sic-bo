@@ -1,5 +1,23 @@
 {
   "devDependencies": {
-    "@types/node": "^20.7.0"
-  }
+    "@types/node": "^20.7.0",
+    "typescript": "^5.2.2"
+  },
+  "name": "@zoneproject/sic-bo",
+  "description": "そしたら突然ボビーがやって来てこういったんだ『じゃあ一体誰がパイを焼くんだ』ってね",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritsu-me/sic-bo.git"
+  },
+  "author": "RitsuYuzaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ritsu-me/sic-bo/issues"
+  },
+  "homepage": "https://github.com/ritsu-me/sic-bo#readme"
 }

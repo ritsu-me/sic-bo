@@ -1,0 +1,1 @@
+declare const bet: Function;
