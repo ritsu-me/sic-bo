@@ -38,3 +38,5 @@ client.on(Events.InteractionCreate, (interaction: typeof BaseInteraction) => {
     }
   }
 });
+
+client.login()
