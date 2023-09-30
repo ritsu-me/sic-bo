@@ -17,12 +17,17 @@ module.exports = {
       ephemeral: true
     });
     interaction.reply({
-      embeds:[
+      embeds: [
         new EmbedBuilder()
-        .setTitle("")
-        .setDescription(`# 🎲SicBo\nThe game has hosted by ${interaction.user.displayName}.\nLet's start the bet!`)
-        .addFields()
-      ]
-    })
+          .setTitle("")
+          .setDescription(
+            `# 🎲SicBo\nThe game has hosted by ${interaction.user.displayName}.\nLet's start the bet!`
+          )
+          .addFields({
+            name: "# 📚Rule",
+            value: "[Look at this site](https://vegasdocs.com/sicbo/)",
+          }),
+      ],
+    });
   },
 };
